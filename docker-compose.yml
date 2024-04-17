@@ -43,6 +43,8 @@ services:
       - '3306:3306'
     environment:
       TZ: Asia/Shanghai   # 设置时区
+      THEME: berry
+      GEMINI_VERSION: 'v1beta'
       MYSQL_ROOT_PASSWORD: 'OneAPI@justsong' # 设置 root 用户的密码
       MYSQL_USER: oneapi   # 创建专用用户
       MYSQL_PASSWORD: '123456'    # 设置专用用户密码
